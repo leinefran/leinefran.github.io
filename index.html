@@ -1,81 +1,177 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
         <head>
-            <title>Leine Valente</title>
             <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="description" content="Leine Valente website html css javascript webdeveloper">
             <meta name="author" content="Leine Valente">
-
-            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
-            <link rel="stylesheet" type="text/css" href="/web_static/css/my.css">
+            <title>Leine Valente</title>
+            <link rel="stylesheet" href="https://github.com/michalsnik/aos">
+            <link rel="stylesheet" type="text/css" href="/web_static/css/main.css">
+            <!-- fonts -->
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
             <!-- icon library -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </head>
         <body class="ui container center aligned">
 
-            <!-- Here starts the INTRO section -->
-            <section class="ui horizontal divider">Intro</section>
-                <h1 class="ui huge header">
-                LEINE VALENTE >> Software Engineer
-                </h1>
-            <section class="ui inverted segment">
-                <h1 class="ui medium header">
-                SF Bay Area based Frontend Engineer, looking for an entry-level position.
-                </h1>
+            <!-- INTRO -->
+            <header>
+                <div class="menu-toggler">
+                    <div class="bar half start"></div>
+                    <div class="bar"></div>
+                    <div class="bar half end"></div>
+                </div>
+                <nav class="top-nav">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#socialmedia">Social Media</a>
+                        </li>      
+                    </ul>
+                </nav>
+                <div class="landing-text">
+                    <h1>Leine Valente</h1>
+                    <h6>Web Developer</h6>
+                </div>
+            </header>
+            <!-- ABOUT -->
+            <section class="class" id="about">
+                <div class="container">
+                    <div class="profile-img">
+                        <img src="images/profile.jpeg" alt="">
+                    </div>
+                    <div class="about-details">
+                        <div class="about-heading">
+                            <h1>About</h1>
+                            <h6>Myself</h6>
+                        </div>
+                        <p>I'm passionate about all things design-related, I'm now focusing on developing my front-end developer and UX/UI designer skills.</p>
+                        <p>Besides coding, I spend most of my free time practicing brazilan jiu-jitsu, reading or caring for indoor plants. Occasionally I like watching movies and talking about them. When it's nice outside, I go for a good hike or swim. And in case you were wondering, my first name is pronounced LAY-nee.</p>
+                    </div>
+                </div>
             </section>
-
-            <!-- Here starts the ABOUT section -->
-            <section class="ui horizontal divider">About</section>
-            <div class="ui segment">
-                <p>I'm passionate about all things design-related, I'm now focusing on developing my front-end developer and UX/UI designer skills.</p>
-                <p>Besides coding, I spend most of my free time practicing brazilan jiu-jitsu, reading or caring for indoor plants. Occasionally I like watching movies and talking about them. When it's nice outside, I go for a good hike or swim. And in case you were wondering, my first name is pronounced LAY-nee.</p>
-            </div>
-
-            <!-- Here starts the PROJECTS section -->
-            <section class="ui horizontal divider">Projects</section>
-            <div class="ui three cards">
-                <div class="red inverted card">
-                    <div class="content">
-                    <a class="header" href="https://github.com/leinefran/printf">Printf</a>
-                    <div class="description">
-                    My own version of the function printf written in C.
-                    </div><!-- .description -->
-                    </div><!-- .content -->
-                </div><!-- .card -->
-                <div class="white inverted card">
-                    <div class="content">
-                    <a class="header" href="https://github.com/leinefran/AirBnB_clone_v4">AirBnb Clone</a>
-                    <div class="description">
-                    A simplified full stack version of the airbnb web application written in Python.
-                    </div><!-- .description -->
-                    </div><!-- .content -->
-                </div><!-- .card -->
-                <div class="black inverted card">
-                    <div class="content">
-                    <a class="header" href="https://github.com/leinefran/AirBnB_clone_v4">Bash Shell Replica</a>
-                    <div class="description">
-                    A simple version of a command interpreter written in C.
-                    </div><!-- .description -->
-                    </div><!-- .content -->
-                </div><!-- .card -->
-            </div><!-- .ui cards -->
-            <section class="ui horizontal divider">
+            <!-- SERVICES -->
+            <section class="services" id="services">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1>Services</h1>
+                        <h6>What I can do for you</h6>
+                    </div>
+                </div>
+                <div class="my-skills">
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h1>Web Design</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam quasi repellendus quam voluptas voluptates maxime quaerat dolorem omnis, non deserunt laudantium earum, doloribus accusantium tempora, asperiores maiores sint! Eos, tempore?
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-code-group"></i>
+                        </div>
+                        <h1>Web Development</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam quasi repellendus quam voluptas voluptates maxime quaerat dolorem omnis, non deserunt laudantium earum, doloribus accusantium tempora, asperiores maiores sint! Eos, tempore?
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-chart-group"></i>
+                        </div>
+                        <h1>Product Strategy</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam quasi repellendus quam voluptas voluptates maxime quaerat dolorem omnis, non deserunt laudantium earum, doloribus accusantium tempora, asperiores maiores sint! Eos, tempore?
+                        </p>
+                    </div>
+                </div>
             </section>
-            <button class="fluid ui button">
-                <a class="header" href="https://drive.google.com/open?id=1HzMSsmqrBK3n-k34VYNhc9_nz1MrdnAy">Resume</a>
-            </button>
-
-            <footer>
-                <section class="ui horizontal divider">Contact</section>
-                <a href="https://linkedin.com/in/leinevalente" class="fa fa-linkedin"></a>
-                <a href="https://twitter.com/LeineFran" class="fa fa-twitter"></a>
-                <a href="https://github.com/leinefran" class="fa fa-github"></a>
-                <a href="mailto:leinefran@gmail.com"><i class="fa fa-envelope"></i></a>
+            <!-- PROJECTS -->   
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1>Portfolio</h1>
+                        <h6>View some of my recent work</h6>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/portitem1.jpeg" alt="">
+                        </div>
+                        <div class="portfolio-description">
+                            <h1>Web Development</h1>
+                            <h6>Blog website</h6>
+                            <p>Lorem, ipsum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact -->
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1>Contact</h1>
+                        <h6>Let's work together</h6>
+                    </div>
+                    <form action="">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <label for="subject">Subject:</label>
+                        <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                        <input type="submit" value="submit">
+                    </form>
+                </div>
+            </section>
+            <!-- Social Media -->
+            <section id="social-media">
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://linkedin.com/in/leinevalente" class="icon-link">
+                                <i class="fab fa-linkedin-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/LeineFran" class="icon-link">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>     
+                        </li>
+                        <li>
+                            <a href="https://github.com/leinefran" class="icon-link">
+                                <i  class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer class="copyright">
+                <div class="up" id="up">
+                    <i class="fas fa-chevron-up"></i>
+                    <p>&copy; 2020 Leine Valente</p>
+                </div>  
             </footer>
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
         </body>
 </html>
