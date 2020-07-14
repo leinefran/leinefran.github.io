@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'the_historia_demoregular';
-    src: url('thehistoriademo-webfont.woff2') format('woff2'),
-         url('thehistoriademo-webfont.woff') format('woff');
+    src: url('/web_static/webfontkit-the_historia/thehistoriademo-webfont.woff2') format('woff2'),
+         url('/web_static/webfontkit-the_historia/thehistoriademo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
