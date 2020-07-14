@@ -1,0 +1,108 @@
+/*Start global*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* =10px */
+  font-family:"Roboto", sans-serif;
+  color: #eee;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url("/web_static/img/sitebg.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+p {
+  font-size: 1.8 rem;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+/*End global*/
+
+
+/*Start reusable*/
+/*End reusable*/
+
+
+/*Start header*/
+header {
+  width: 100%;
+  height: 100vh;
+}
+
+.top-nav {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: #16162d;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  transition: all 650ms cubic-bezier(1,0,0,1);
+}
+
+.nav-list {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 0 2rem;
+}
+
+.nav-link {
+  font-family: "The Historia Demo", sans-serif;
+  font-size: 5rem;
+  padding: 1rem;
+}
+
+.nav-link:hoover,
+.nav-link:focus {
+  background: linear-gradient(to top, #ffe838, #fd57bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/*End header*/
+
+
+/*Start about*/
+/*End about*/
+
+/*Start services*/
+/*End services*/
+
+/*Start portfolio*/
+/*End services*/
+
+/*Start timeline*/
+/*End timeline*/
+
+/*Start contact*/
+/*End contact*/
+
+/*Start footer*/
+/*End footer*/
+
+/*Start animations*/
+/*End animations*/
+
+/*Start media queries*/
+/*End media queries*/
